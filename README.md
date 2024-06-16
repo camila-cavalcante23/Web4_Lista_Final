@@ -1,70 +1,58 @@
-# Getting Started with Create React App
+# Lista de Tarefas
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Descrição do Projeto
 
-## Available Scripts
+Este projeto consiste em transformar uma Single Page Application (SPA) desenvolvida com JavaScript puro em uma aplicação web utilizando React no front-end e C# no back-end. A aplicação realiza operações CRUD (Create, Read, Update, Delete) em uma entidade de tarefas.
 
-In the project directory, you can run:
+## Tecnologias Utilizadas
 
-### `npm start`
+- **Frontend:** React
+- **Backend:** C# com .NET
+- **Banco de Dados:** In Memory Database do .NET
+- **Gerenciamento de Dependências:** npm (Node Package Manager)
+- **HTTP Client:** axios
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Funcionalidades
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Adicionar Tarefa:** Permite adicionar uma nova tarefa com descrição, prazo e prioridade.
+- **Listar Tarefas:** Exibe a lista de todas as tarefas, filtradas por completas, pendentes ou todas.
+- **Atualizar Tarefa:** Permite marcar tarefas como concluídas ou pendentes. Ao marcar como concluídas, atualize a página.
+- **Remover Tarefa:** Permite remover uma tarefa da lista.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Estrutura de Código
+# Frontend
+- src/components/TaskForm.js: Componente para adicionar novas tarefas.
+- src/components/TaskItem.js: Componente para exibir uma tarefa individual.
+- src/components/TaskList.js: Componente para listar e filtrar tarefas.
+- src/api.js: Funções para interação com o backend (CRUD).
+- src/App.js: Componente principal que integra os componentes de tarefa.
+# Backend
+- Controllers/TasksController.cs: Controlador que gerencia as requisições CRUD.
+- Models/Task.cs: Modelo de dados para a tarefa.
+- Data/AppDbContext.cs: Contexto do banco de dados.
+# Exemplo de Uso
+Abra o navegador e vá para http://localhost:3000 para acessar a aplicação frontend.
+Utilize os campos e botões para adicionar, atualizar e remover tarefas.
+As operações serão refletidas no backend e salvas no banco de dados em memória.
 
-### `npm run build`
+## API Endpoints
+- GET /api/tasks: Retorna todas as tarefas.
+- GET /api/tasks/{id}: Retorna uma tarefa específica por ID.
+- POST /api/tasks: Cria uma nova tarefa.
+- PUT /api/tasks/{id}: Atualiza uma tarefa existente.
+- DELETE /api/tasks/{id}: Remove uma tarefa.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Aplicação em Funcionamento
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## tela inicial
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Adcionando uma tarrefa 
 
-### `npm run eject`
+## Resposta da API
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Marcando tarefa como concluída 
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Resposta da API
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

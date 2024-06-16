@@ -1,0 +1,6 @@
+@lista_backend_HostAddress = http://localhost:5049
+
+GET {{lista_backend_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
