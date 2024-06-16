@@ -46,13 +46,42 @@ As operações serão refletidas no backend e salvas no banco de dados em memór
 ## Aplicação em Funcionamento
 
 ## tela inicial
-
-## Adcionando uma tarrefa 
+![image](https://github.com/camila-cavalcante23/Web4_Lista_Final/assets/142603637/3665bdf7-4e83-4682-b926-8325997b3708)
+## Adicionando uma tarefa 
+![image](https://github.com/camila-cavalcante23/Web4_Lista_Final/assets/142603637/2bc92f43-db33-45bd-ac3c-75c490924e99)
+![image](https://github.com/camila-cavalcante23/Web4_Lista_Final/assets/142603637/28ea8850-6c83-4b36-a641-cd99a1a5dbc6)
 
 ## Resposta da API
+![image](https://github.com/camila-cavalcante23/Web4_Lista_Final/assets/142603637/c5eca22d-03fa-417e-aa56-f262b7d0ebdb)
 
 ## Marcando tarefa como concluída 
+![image](https://github.com/camila-cavalcante23/Web4_Lista_Final/assets/142603637/3522c138-151f-4604-9d4a-f815e905df0b)
 
 ## Resposta da API
+![image](https://github.com/camila-cavalcante23/Web4_Lista_Final/assets/142603637/f7bf9f5f-f893-4300-9489-269c8912b12d)
+
+## Desmarcando tarefa 
+![image](https://github.com/camila-cavalcante23/Web4_Lista_Final/assets/142603637/9a674fcb-fed3-4265-a255-003f790265c0)
+
+## Resposta da API
+![image](https://github.com/camila-cavalcante23/Web4_Lista_Final/assets/142603637/a958a003-dc07-4451-aea2-06d40c720acb)
+
+## Botão de todas as tarefas concluídas ou não 
+![image](https://github.com/camila-cavalcante23/Web4_Lista_Final/assets/142603637/dce03c5e-9f02-4558-8f81-9c7416b20a46)
+
+## Resposta da API
+![image](https://github.com/camila-cavalcante23/Web4_Lista_Final/assets/142603637/52c63fe4-b04e-4ad8-b71f-19b9e0e4e208)
+
+## Botão das tarefas completas
+![image](https://github.com/camila-cavalcante23/Web4_Lista_Final/assets/142603637/00907209-34ea-4c65-9796-b7b5b5d74fcf)
+
+## Botão das tarefas pendentes 
+![image](https://github.com/camila-cavalcante23/Web4_Lista_Final/assets/142603637/961ea84f-a998-48a4-84d3-daa951ca7d2e)
+
+## Botão das Instruções 
+![image](https://github.com/camila-cavalcante23/Web4_Lista_Final/assets/142603637/d4ce4d71-ef60-4960-8909-965d3feed0b8)
+
+
+
 
 
