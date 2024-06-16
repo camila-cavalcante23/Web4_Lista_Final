@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Web4_Lista_Final/static/css/main.1b23f1d2.css",
+    "main.js": "/Web4_Lista_Final/static/js/main.01a9a388.js",
+    "index.html": "/Web4_Lista_Final/index.html",
+    "main.1b23f1d2.css.map": "/Web4_Lista_Final/static/css/main.1b23f1d2.css.map",
+    "main.01a9a388.js.map": "/Web4_Lista_Final/static/js/main.01a9a388.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1b23f1d2.css",
+    "static/js/main.01a9a388.js"
+  ]
+}
