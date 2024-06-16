@@ -31,10 +31,6 @@ Este projeto consiste em transformar uma Single Page Application (SPA) desenvolv
 - Controllers/TasksController.cs: Controlador que gerencia as requisições CRUD.
 - Models/Task.cs: Modelo de dados para a tarefa.
 - Data/AppDbContext.cs: Contexto do banco de dados.
-# Exemplo de Uso
-Abra o navegador e vá para http://localhost:3000 para acessar a aplicação frontend.
-Utilize os campos e botões para adicionar, atualizar e remover tarefas.
-As operações serão refletidas no backend e salvas no banco de dados em memória.
 
 ## API Endpoints
 - GET /api/tasks: Retorna todas as tarefas.
