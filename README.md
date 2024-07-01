@@ -77,6 +77,8 @@ Este projeto consiste em transformar uma Single Page Application (SPA) desenvolv
 ## Botão das Instruções 
 ![image](https://github.com/camila-cavalcante23/Web4_Lista_Final/assets/142603637/d4ce4d71-ef60-4960-8909-965d3feed0b8)
 
+## API Endpoints
+![image](https://github.com/camila-cavalcante23/Web4_Lista_Final/assets/142603637/79506d31-58c0-4969-9cce-4913d5131d5f)
 
 
 
