@@ -39,6 +39,30 @@ Este projeto consiste em transformar uma Single Page Application (SPA) desenvolv
 - PUT /api/tasks/{id}: Atualiza uma tarefa existente.
 - DELETE /api/tasks/{id}: Remove uma tarefa.
 
+## Pré-requisitos para rodar a aplicação.
+
+Um editor para trabalhar com o código, como Visual Studio Code por exemplo.
+
+- Node.js e npm instalados
+- .NET SDK instalado
+  
+## Como Rodar o Projeto
+
+1. Inicie o back-end:
+
+    ```sh
+    cd lista_backend
+    dotnet run
+    ```
+
+2. Inicie o front-end:
+
+    ```sh
+    npm start
+    ```
+Será aberto no navegador padrão no endereço `http://localhost:3000`.
+
+
 ## Aplicação em Funcionamento
 
 ## tela inicial
